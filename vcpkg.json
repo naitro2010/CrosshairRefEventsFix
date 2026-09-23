@@ -3,7 +3,20 @@
     "name": "hello-world",
     "version-string": "0.0.1",
     "dependencies": [
-        "commonlibsse-ng",
+        {
+            "name": "directxmath",
+            "version>=": "2025-04-03"
+        },
+        {
+            "name": "directxtk",
+            "version>=": "2025-10-27"
+        },
+        "openvr",              
+        "commonlibsse-gg",
+        {
+            "name": "spdlog",
+            "version>=": "1.16.0"
+        },
         { "name": "skyrimscripting-cmake", "version>=": "0.0.1" },
         { "name": "skyrimscripting-plugin", "version>=": "0.1.0#1" }
     ]
