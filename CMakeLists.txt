@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.21)
 
 project(CrosshairRefEventsFix VERSION 0.0.1)
 
+find_package(directxtk CONFIG REQUIRED)
 find_package(SkyrimScripting.CMake CONFIG REQUIRED)
 find_package(SkyrimScripting.Plugin CONFIG REQUIRED)
 
